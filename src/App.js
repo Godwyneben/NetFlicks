@@ -5,13 +5,13 @@ import SearchIcon from './search.svg';
 
 const API_URL = 'http://www.omdbapi.com?apikey=c467d466';
 
-const movie1 = {
-    "Title": "The Boondocks",
-    "Year": "2005–2014",
-    "imdbID": "tt0373732",
-    "Type": "series",
-    "Poster": "https://m.media-amazon.com/images/M/MV5BMjA5OTNhNDQtODU0ZS00MmMyLWJkZmMtZmIyNjRhOTFlODMwXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_SX300.jpg"
-}
+// const movie1 = {
+//     "Title": "The Boondocks",
+//     "Year": "2005–2014",
+//     "imdbID": "tt0373732",
+//     "Type": "series",
+//     "Poster": "https://m.media-amazon.com/images/M/MV5BMjA5OTNhNDQtODU0ZS00MmMyLWJkZmMtZmIyNjRhOTFlODMwXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_SX300.jpg"
+// }
 
 const App = () => {
     const [movies, setMovies] = useState([]);

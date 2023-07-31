@@ -160,9 +160,19 @@ h1{
   opacity: 1;
 }
 
+
+
+
+/* media queries */
+
+/* media query for small screens  */
 @media screen and (max-width: 600px) {
   .app {
-    padding: 4rem 2rem;
+    padding: 1rem 1rem;
+  }
+
+  h1 {
+    font-size: 1.5rem;
   }
 
   .search {
@@ -178,16 +188,6 @@ h1{
     width: 20px;
     height: 20px;
   }
-}
-
-@media screen and (max-width: 400px) {
-  .app {
-    padding: 1rem 1rem;
-  }
-
-  h1 {
-    font-size: 1.5rem;
-  }
 
   .container {
     margin-top: -2rem;
@@ -197,5 +197,19 @@ h1{
     width: 100%;
     height: 30%;
     margin: 1rem;
+    flex: 1 1 12rem;
   }
 }
+
+/* media query for large screens  */
+@media screen and (min-width: 768px) {
+  .app {
+    padding: 4rem 2rem;
+  }
+
+  .movie {
+    width: 100%;
+    margin: 1rem;
+    flex: 1 1 15rem;
+  }
+} 
